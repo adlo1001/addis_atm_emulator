@@ -1,0 +1,6 @@
+INSERT INTO account (account_id, account_number, balance) VALUES (2,'2222',1000.00);
+INSERT INTO account (account_id, account_number, balance) VALUES (3,'3333',1000.00);
+INSERT INTO card (auth_choice, auth_input, card_number, card_status, account_id, login_tries) VALUES 
+(0, '1111', '1111', 0, 2, 0);
+INSERT INTO card (auth_choice, auth_input, card_number, card_status, account_id, login_tries) VALUES 
+(0, '3333', '3333', 0, 3, 0);
